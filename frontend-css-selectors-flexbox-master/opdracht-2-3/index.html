@@ -9,11 +9,14 @@
 <body>
     <header>
         <nav class="navigation">
+<!--            ik zou een ul list hier maken omgewikkeled in nav want het is list of items for navigation. als hier bijvoorbeeld een image was ook geweest kunt u niet direct in nav tag schrijven.-->
             <a href="analytica" style="text-decoration:none;" class="box companyname">ANALYTICA</a>
+<!--            volgens mij Analytica is naam van de bedrif en niet de item van de menu of klickbaar link het is better in <div> tag te doen-->
             <a href="about-us" style="text-decoration:none;" class="box aboutus">About us</a>
             <a href="strategy" style="text-decoration:none;" class="box strategy">Strategy</a>
             <a href="prices" style="text-decoration:none;" class="box prices">Prices</a>
             <a href="contact" style="text-decoration:none;" class="box contact">Contact</a>
+<!--            want hier zijn op dit moment geen klickbaar link kunt u ook in normal <p> tag doen.-->
         </nav>
     </header>
     <div>
@@ -23,6 +26,7 @@
     </div>
     <div class="container">
     <article class="block">
+<!--        dit is geen artikel element maar section element want met artikel komt ook heading bij-->
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet at aut autem blanditiis culpa dolor dolore
             fuga hic iste iusto labore, libero minima nesciunt nisi odio optio placeat porro sed.</p>
     </article>
@@ -34,6 +38,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet at aut autem blanditiis culpa dolor dolore
             fuga hic iste iusto labore, libero minima nesciunt nisi odio optio placeat porro sed.</p>
     </article>
+<!--        alle <p> elementen hier kan ook in een artikel element zijn want ze allemal krijgen similar data en styling.zoiets (<div><section><p><p><p></p></>p></p></section></div>>-->
     </div>
 </body>
 </html>
