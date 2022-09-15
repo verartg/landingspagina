@@ -5,6 +5,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #F2F3D9;
     text-align: center;
+/*    ik zou font family en text-align niet in body declaren want dit kan verschillen met elementen*/
 }
 
 .navigation {
@@ -14,6 +15,7 @@ body {
     margin-bottom: 40px;
     display: flex;
     flex-direction: row;
+/*    je hoeft niet een nieuwe class hier te maken kan gewoon nav stylen*/
 }
 
 .box {
@@ -47,5 +49,6 @@ body {
     flex-basis: 280px;
     flex-shrink: 1;
     align-items: flex-end;
+/*    hier kunt u direct artikel stylen want alle p heeft same styling en kan zitten in een artikel */
 }
-
+/*ik denk je hebt veel classes gemaakt. similar elements */
